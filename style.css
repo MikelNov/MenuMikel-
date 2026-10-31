@@ -159,3 +159,39 @@ footer {
     padding-top: 10px;
     text-align: center;
 }
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+#menu-toggle {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#menu-toggle:hover {
+    color: #E02179;
+}
+
+#hidden {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black;
+    min-width: 160px;
+    z-index: 100;
+}
+
+#hidden a {
+    display: block;
+    padding: 12px;
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
